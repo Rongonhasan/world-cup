@@ -1,0 +1,42 @@
+ * {
+    margin: 0%;
+    padding: 0%;
+ }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}    
+.full-container{
+    margin: 0 auto;
+
+}
+.containar{
+display: flex;
+
+width: 80%;
+height: 80vh;
+background: #161616;
+border-radius: 30px;
+
+}
+
+.bannar{
+    width: 50%;
+font-style: normal;
+color: white;
+font-weight: 700;
+margin: 50px;
+}
+.btn{
+    background-color: red;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+.photo-bannar{
+    width: 50%;
+    margin-top: 70px;
+}
