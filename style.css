@@ -1,42 +1,111 @@
- * {
-    margin: 0%;
-    padding: 0%;
- }
-body{
-    font-family: 'Poppins', sans-serif;
-}
-
-h1{
-    font-size: 50px;
-}    
-.full-container{
-    margin: 0 auto;
+/* Top header section styles */
+.conatiner{
+    width: 900px;
+    margin-left: 5.5%;
 
 }
-.containar{
-display: flex;
-
-width: 80%;
-height: 80vh;
-background: #161616;
-border-radius: 30px;
-
-}
-
-.bannar{
-    width: 50%;
-font-style: normal;
-color: white;
-font-weight: 700;
-margin: 50px;
-}
-.btn{
-    background-color: red;
-    padding: 10px;
-    color: white;
+.header{
     border-radius: 10px;
+   
+    justify-content: center;
+    height: 500px;
+    background-color: #161616;
+    margin-top: 20px;
+   
+   
+   
 }
-.photo-bannar{
-    width: 50%;
-    margin-top: 70px;
+.top-header{
+   
+   display: flex;
+   align-items: center;
+   margin-right: 40px;
+}
+.left-header{
+    color: white;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.left-header .header-title{
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+.left-header .header-dis{
+    text-align: justify;
+   margin-bottom: 50px;
+   
+}
+.left-header .header-button{
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+ .right-header img{
+    height: 500px;
+}
+/* Matches section */
+.matches{
+    display: flex;
+    margin-top: 20px;
+}
+.matches-menu{
+    border-radius: 10px;
+   align-items: center;
+    width: 30%;
+    height: 212px;
+    background-color: #161616;
+}
+.all-menu a {
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin: 10px 30px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 20px;
+
+}
+.all-menu .select-menu{
+    background-color: red;
+    color: white;
+}
+.mid-right{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+}
+.all-matches{
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 20px;
+    border: 1px solid #E8E8E8;
+}
+.match-img img{
+   width: 200px;
+}
+.blog-info{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.blog-info .transfer{
+    margin-top: 15px;
+}
+.blog-info .blog-heading{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+ .blog-info .duration{
+   color: gray;
+   font-size: 12px;
+   
+}
+.duration .comment{
+    margin-left: 30px;
 }
